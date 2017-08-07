@@ -98,6 +98,9 @@ module.exports = ({production, server, extractCss, coverage} = {}) => ({
       '$': 'jquery',
       'jQuery': 'jquery',
       'window.jQuery': 'jquery',
+      'window.Tether': 'tether',
+      tether: 'tether',
+      Tether: 'tether'
     }),
     new TsConfigPathsPlugin(),
     new CheckerPlugin(),

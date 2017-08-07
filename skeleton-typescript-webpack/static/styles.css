@@ -82,7 +82,7 @@ div.au-stagger {
   border-radius: 8px;
   text-align: center;
   padding: 0;
-  background-color: #337ab7;
+  background-color: white;
   color: rgb(136, 172, 217);
   margin-bottom: 32px;
   box-shadow: 0 0 5px rgba(0, 0, 0, .5);
@@ -96,6 +96,23 @@ div.au-stagger {
   color: white;
   text-shadow: 0 0 6px rgba(0, 0, 0, .5);
   font-size: 18px;
+}
+
+.video-items{
+  margin:0 20px 20px 0;
+  display: inline-block;
+}
+
+.video-items > .video-thumbnail {
+  width: 30%;
+}
+
+.video-items > div > .video-thumbnail > img{
+  width: 100%;
+}
+
+.video-player video{
+  width: 500px;
 }
 
 .card .header-bg {
@@ -161,4 +178,21 @@ div.au-stagger {
   100% {
     opacity: 1;
   }
+}
+
+/*Make element clickable*/
+.clickable{
+  cursor: pointer;
+}
+
+.mb-20{
+  margin-bottom: 20px;
+}
+.bg-white{
+  background-color: white;
+}
+
+.list-item-border{
+  border: 1px solid gainsboro;
+  padding: 10px;
 }

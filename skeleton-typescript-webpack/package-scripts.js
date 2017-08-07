@@ -84,7 +84,7 @@ module.exports = {
         }
       },
       server: {
-        default: `webpack-dev-server -d --inline --env.server`,
+        default: `webpack-dev-server -d --inline --env.server --port 8081`,
         extractCss: `webpack-dev-server -d --inline --env.server --env.extractCss`,
         hmr: `webpack-dev-server -d --inline --hot --env.server`
       },
